@@ -21,15 +21,10 @@ int main()
 				if (!foundMineSweeper)
 				{
 					system("cls");
-					std::cout << "/////////////////////////////" << std::endl;
-					std::cout << "//////BROUGHT TO YOU BY//////" << std::endl;
-					std::cout << "//////////DEEZ NUTS//////////" << std::endl;
-					std::cout << "////////////GOTEM////////////" << std::endl;
-					std::cout << "/////////////////////////////" << std::endl;
 					std::cout << "CONTROLS:\n";
-					std::cout << "PRESS CONTROL FOR EZ AIM\n";
-					std::cout << "PRESS UP ARROW KEY FOR GG EZ\n";
-					std::cout << "PRESS DOWN ARROW KEY FOR HINTZ\n";
+					std::cout << "PRESS DOWN ARROW KEY FOR HELP\n";
+					std::cout << "PRESS UP ARROW KEY FOR MORE HELP\n";
+					std::cout << "HOLD CONTROL IF YOU JUST DON'T WANT TO SOLVE THIS PUZZLE ANYMORE\n";
 					foundMineSweeper = true;
 				}
 
@@ -73,7 +68,7 @@ int main()
 		else
 		{
 			system("cls");
-			std::cout << "CANNOT FIND MINESWEEPER PROCESS. PLEASE RUN MINESWEEPER OR RESTART THE PROGRAM. THANK YOU CUM AGAIN\n";
+			std::cout << "CANNOT FIND MINESWEEPER PROCESS. PLEASE RUN MINESWEEPER OR RESTART THE PROGRAM.\n";
 			foundMineSweeper = false;
 			Sleep(2500);
 		}
